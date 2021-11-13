@@ -17,7 +17,7 @@ public class PortScan {
 		{
 			
 		    final ExecutorService es = Executors.newFixedThreadPool(20);
-		    final String ip = "192.168.1.1";
+		    final String ip = "127.0.0.1";
 		    final int timeout = 200;
 		    final List<Future<ScanResult>> futures = new ArrayList<>();
 		    
